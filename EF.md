@@ -38,5 +38,5 @@ vanuit de directory van de exe:
 
 Aanpassen in exe project:
     `options => options.MigrationsAssembly("Migrations")`
-en
+en (vanuit de main project folder waarin de context gemaakt wordt!)
     `> dotnet ef migrations add init -p ..\Migrations`
